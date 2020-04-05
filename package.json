@@ -1,5 +1,5 @@
 {
-  "name": "svmapi",
+  "name": "caw-ticketing",
   "version": "1.0.0",
   "description": "This README would normally document whatever steps are necessary to get your application up and running.",
   "main": "server.js",
