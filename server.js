@@ -51,3 +51,4 @@ http.listen(3002, function(){
     console.log('SVM API Server started @Port : ' + this.address().port);
 });
 //http.listen(4004);
+module.exports = app;
