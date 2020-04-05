@@ -28,7 +28,7 @@ module.exports = function(app){
 		 	res.json(e);
 		}
 	});
-    app.get('/ui/shows/:showId', function(req, res) {
+    app.get('/ui/shows/:movieId', function(req, res) {
 		try {
 			getDetails(req.params.movieId, function(response) {
 				res.json(response);
@@ -156,8 +156,8 @@ function create(shows, callback) {
 	}
 }
 
-function getDetails(showId, callback) {
-	ShowsModel.find({"showId": showId}, function(error, showRecords) {
+function getDetails(movieId, callback) {
+	ShowsModel.find({"movieId": movieId}, function(error, showRecords) {
 		if (error) {
 			callback({
 				status: DB_CODES.FAIL,
