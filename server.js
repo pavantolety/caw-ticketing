@@ -46,7 +46,7 @@ app.get('/', function (req, res) {
     res.send('App is Live');
 });
 //Start Server
-http.listen(80, function(){
+http.listen(3002, function(){
     // console.log(app.settings.env + ';__dirname:' + __dirname + ';');
     console.log('SVM API Server started @Port : ' + this.address().port);
 });
