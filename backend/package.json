@@ -1,0 +1,30 @@
+{
+  "name": "svmapi",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mahesh_edvenswa@bitbucket.org/edvenswatech/svm-back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/edvenswatech/svm-back-end#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.2",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.1",
+    "nconf": "^0.10.0",
+    "nodemailer": "^6.2.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "socket.io": "^2.2.0",
+    "underscore": "^1.9.1",
+    "validator": "^11.0.0"
+  }
+}

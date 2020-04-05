@@ -1,0 +1,23 @@
+{
+    "port" : 3002,
+    "security": {
+        "tokenLife" : 3600
+    },
+    "mongoose": {
+        "host": "localhost",
+        "dbName":"caw-ticketing",
+        "port": "27017",
+        "user": "",
+        "password": ""
+    },
+    "smtpConfig": {
+        "host": "smtp.1and1.com",
+        "secureConnection": false,
+        "port": 587,
+        "auth": {
+            "user" : "info@emportal.me",
+            "pass" : "Edvenswa2016"
+        },
+        "from": "cawticketing@caw.in"
+    }
+}
