@@ -27,6 +27,6 @@
     "socket.io": "^2.2.0",
     "supertest": "^4.0.2",
     "underscore": "^1.9.1",
-    "validator": "^11.0.0"
+    "validator": "^13.7.0"
   }
 }
