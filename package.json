@@ -16,7 +16,7 @@
   "homepage": "https://bitbucket.org/edvenswatech/svm-back-end#readme",
   "dependencies": {
     "async": "^3.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mocha": "^7.1.1",
     "mongoose": "^5.6.2",
     "mongoose-unique-validator": "^2.0.3",
